@@ -1,0 +1,1604 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.row {
+  --bs-gutter-x: 0px;
+}
+
+.wadah1 { 
+  padding-top: 69px;
+}
+
+.title {
+  background-color: #F7F7F7ff;
+  border-bottom: 1px solid #00000020;
+}
+
+.title_umsida {
+  font-size: 2.34375rem;
+  padding: 0.75rem 1.25rem;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.background_input {
+  background-color: #fff;
+  padding: 1.25rem;
+  margin-left: auto;
+}
+
+.form_input {
+  margin-top: 1rem;
+}
+
+.input_text {
+  padding: 0.375rem 0.75rem;
+  font-size: .9375rem;
+  border: 1px solid #ced4da;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  width: 100%;
+}
+
+.spasi {
+  margin-bottom: 16px;
+}
+
+.input_text:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(68,113,152,.25);
+  color: #495057;
+  background-color: #fff;
+  border-color: #8fb0cd;
+}
+
+.wadah_text {
+  text-align: left;
+}
+
+.wadah_remember {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.input_radio {
+  margin-right: 5px;
+}
+
+.buton {
+  font-size: 15px;
+  background-color: #447198;
+  color: #fff;
+  border: 1px solid #447198;
+  padding: 6px 12px;
+  margin-top: 24px;
+  width: 100%;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.buton:hover {
+  background-color: #385d7e;
+}
+
+.buton:focus {
+  box-shadow: 0 0 0 0.2rem rgba(68,113,152,.5)
+}
+
+.background_forgot {
+  margin-right: auto;
+  background-color: #fff;
+  padding-right: 3.9rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: .5rem;
+}
+
+.wadah_linkforget {
+  text-align: left;
+  margin-top: .8rem;
+}
+
+.link_forget {
+  color: #447198;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link_forget:hover {
+  color: #2c4a63;
+  text-decoration: underline;
+}
+
+.wadah_cookies {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.cookies {
+  font-size: 15px;
+  margin-right: 0.4rem;
+}
+
+.question {
+  font-size: 15px;
+  color: #5bc0de;
+  cursor: pointer;
+}
+
+.wadah_Courses {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.button_guest {
+  text-align: left;
+}
+
+.button_guest {
+  margin-top: 16px;
+}
+
+.guest {
+  width: 100%;
+  color: #212529;
+  background-color: #e9ecef;
+  border: 1px solid #e9ecef;
+  padding: 6px 12px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.guest:focus {
+  box-shadow: 0 0 0 0.2rem rgba(233,236,239,.5);
+}
+
+.guest:hover {
+  background-color: #d3d9df;
+}
+
+.wadah_footer {
+  background-color: #0e3e46e6;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  padding: 16px 0px;
+  position: absolute;
+  bottom: -10%;
+  border: 1px solid #0e3e46e6;
+  width: 100%;
+}
+
+.wadah_footer_false {
+  background-color: #0e3e46e6;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  padding: 16px 0px;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid #0e3e46e6;
+  width: 100%;
+}
+
+.not_login {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.are_not {
+  display: block;
+  padding-left: 15px;
+}
+
+.home_link {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.data_link {
+  color: #fff;
+}
+
+.mobile_link {
+  color: #fff;
+}
+
+.language {
+  font-size: 15px;
+  color: #fff;
+}
+
+.left {
+  padding-left: 15px;
+}
+
+.top {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.bottom {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.language {
+  display: none;
+}
+
+.wadah_navbar {
+  padding: 8px 0px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.navbarr {
+  margin: 0 0 0 2.5% ;
+  text-align: left;
+}
+
+.navbarrr {
+  margin: 0 0 0 2.5% ;
+  text-align: left;
+}
+
+.wadah_hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hamburger {
+  background-color: #e9ecef;
+  padding: 0.2rem 0.8rem;
+  font-size: 43px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.hamburger:hover {
+  background-color: #d3d9df;
+}
+
+.wadah_link_umsida {
+  display: inline-block;
+}
+
+.wadah_link_umsidaa {
+  display: inline-block;
+}
+
+.link_elearning_umsida {
+  color: #000;
+  text-decoration: none;
+  font-size: 18.75px;
+}
+
+.wadah_link_umsida {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.wadah_link_umsidaa {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.wadah_dropdown {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+  color: #000;
+}
+
+.wadah_dropdownn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+  color: #000;
+}
+
+.wadah_dropdownnn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+  color: #000;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #000;
+}
+
+.dropdown-item:focus {
+  background-color: #447198;
+}
+
+.nav-link {
+  padding:4px 0px;
+  font-size: 15px;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar_two {
+  margin: 0 2.5% 0 0;
+  font-size: 15px;
+  text-align: right;
+}
+
+.navbar_twoo {
+  margin: 0 2.5% 0 0;
+  padding: 10px 0px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.lonceng {
+  font-size: 18px;
+}
+
+.chat {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.wadah_dropdownn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: #000;
+}
+
+.color_login {
+  color: #447198;
+  text-decoration: none;
+}
+
+.color_login:hover {
+  color: #2c4a63;
+  text-decoration: underline;
+}
+
+.are_not_logged {
+  padding-right: 10px;
+}
+
+.wadah_menu {
+  margin-left: 3.6%;
+  padding: 20px 0px 20px 0px;
+}
+
+.wadah_base {
+  text-align: left;
+  background-color: #447198;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 20px;
+}
+
+.base {
+  margin-left: 8px;
+}
+
+.homebois {
+  margin-top: -4px;
+}
+
+.wadah_always {
+  background-color: #D4E5EDff;
+  position: fixed;
+  height: 100%;
+  width: 35%;
+  left: -450px;
+  transition: left 0.5s ease;
+  top: 59px;
+  z-index: 2;
+}
+
+.wadah_always.active {
+  visibility: visible;
+  left: 0;
+}
+
+/* .wadah_always.inactive {
+  visibility: hidden;
+} */
+
+.poster1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.poster2 {
+  width: 100%;
+  height: 400px;
+}
+
+.wadah_carousels {
+  border-top: 1rem solid #447198;
+}
+
+.card_elearning {
+  text-decoration: none;
+  font-size: 2.34375rem;
+  font-weight: 300;
+  color: #447198;
+}
+
+.col_card {
+  text-align: left;
+}
+
+.container_card {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  padding-top: 36px;
+}
+
+.col-search {
+  text-align: left;
+}
+
+.container_search {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  font-size: 15px;
+  padding-top: 62px;
+  padding-bottom: 16px;
+}
+
+.input_search {
+  background-color: #fff;
+  padding: 6px 12px;
+  font-size: .9375rem;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.input_search:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(68,113,152,.25);
+  border-color: #8fb0cd;
+}
+
+.button_go {
+  border: 1px solid #e9ecef;
+  background-color: #e9ecef;
+  padding: 6px 12px;
+  font-size: 15px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-right: 5px;
+}
+
+.button_go:hover {
+  background-color: #d3d9df;
+  border-color: #cbd3da;
+}
+
+.wadah_categories {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.categories {
+  font-size: 30px;
+  font-weight: 300;
+  color: #373a3c;
+}
+
+.folder_icon {
+  font-size: 5em;
+}
+
+.wadah_folder {
+  text-align: center;
+  padding: 0px 20px 30px 20px;
+}
+
+.judul_folder {
+  display: block; 
+}
+
+.link_colorfolder {
+  color: #447198;
+  text-decoration: none;
+}
+
+.link_colorfolder:hover {
+  color: #2c4a63;
+  text-decoration: underline;
+}
+
+.row_one_folder {
+  margin-bottom: 30px;
+}
+
+.wadah_footer_lobby {
+  background-color: #0e3e46e6;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  padding: 16px 0px;
+  border: 1px solid #0e3e46e6;
+  width: 100%;
+}
+
+.kotak_footer {
+  padding-top: 40px;
+}
+
+.foto_moodle {
+  width: 112px;
+}
+
+.join_login {
+  color: #fff;
+}
+
+.nama_anda {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.wadah_NimNam {
+  text-align: left;
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  padding-top: 36px;
+}
+
+.personalJumbo {
+  width: 100px;
+  height: 100px;
+  border-radius: .25rem;
+  margin-right: 23px;
+  margin-bottom: 15px;
+}
+
+.nama_nim {
+  font-size: 2.34375rem;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.WarnaWarni {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  background-image: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.wadah_registrasi {
+  margin: 25px 0px 15px 0px;
+
+}
+
+.wadah_registrasii {
+  text-align: left;
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+}
+
+.judul_registrasi {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+}
+
+.wadahx {
+  text-align: right;
+}
+
+.wadah_close {
+  padding: 3px 7px 5px 7px;
+  border-radius: 100%;
+  transition: background 280ms ease-out, color 280ms ease-out!important;
+  color: #727272;
+  display: inline-block;
+}
+
+.close {
+  font-size: 18px;
+}
+
+.wadah_close:hover {
+  color: #212121;
+  background: rgba(0, 0, 0, .08);
+}
+
+.wadah_timeline {
+  margin: 25px 0px 15px 0px;
+  text-align: left;
+}
+
+.img_kampusmerdeka {
+  width: 250px;
+}
+
+.wadah_kampus_merdeka {
+  border-top: 1px solid rgba(0, 0, 0, .12);
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.wadah_deskripsi {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  margin-bottom: 20px;
+}
+
+.nim_underline {
+  text-decoration: underline;
+}
+
+.spada_indo {
+  text-decoration: none;
+  color: #07D;
+}
+
+.spada_indo:hover {
+  color: #059;
+  text-decoration: underline;
+}
+
+.change {
+  text-decoration: none;
+  color: #07D;
+}
+
+.change:hover {
+  color: #059;
+  text-decoration: underline;
+}
+
+.input_firstname {
+  width: 90%;
+}
+
+.input_nim {
+  width: 40%;
+}
+
+.row_prog {
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  padding-bottom: 20px;
+}
+
+.wadah_button_spada {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+
+.button_spada {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+  padding: 8px 16px;
+  transition: all 280ms ease;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
+}
+
+.button_spada:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+}
+
+.wadah_qr {
+  display: inline-block;
+  padding: 29px 10px 13px 10px;
+  background-color: #E9ECEF;
+  border:1px solid #E9ECEF;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wadah_qr:hover {
+  color: #212529;
+  background-color: #d3d9df;
+  border:1px solid #cbd3da;
+}
+
+.icon_qr {
+  font-size: 35px;
+  margin-top: -12px;
+}
+
+.link_qr {
+  color: #212529;
+}
+
+.input_enroll {
+  padding: 10px;
+  font-size: 2rem;
+  border: 1px solid #ced4da;
+  outline: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input_enroll:focus {
+  box-shadow: 0 0 0 0.2rem rgba(68,113,152,.25);
+  border-color: #8fb0cd;
+}
+
+.button_enroll {
+  font-size: 2rem;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: #447198;
+  border:1px solid #447198;
+  outline: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button_enroll:hover {
+  color: #fff;
+  background-color: #385d7e;
+  border-color: #345775;
+}
+
+.button_enroll:focus {
+  box-shadow: 0 0 0 0.2rem rgba(68,113,152,.5);
+}
+
+.wadah_enroll {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  border-top: 1px solid rgba(0, 0, 0, .12);
+}
+
+.wadah_menu_my {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  margin-top: 32px;
+}
+
+.wadah_rumah {
+  display: inline-block;
+  border: 1px solid #E9ECEF;
+  padding: 6px 12px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
+.icon_rumah {
+  font-size: 2.5em;
+}
+
+.link_icon_rumah {
+  text-decoration: none;
+  color: #447198;
+}
+
+.deskripsi_dash {
+  display: block;
+  font-size: 15px;
+}
+
+.column_rumah {
+  text-align: right;
+}
+
+.margin_right_1 {
+  margin-right: 5px;
+}
+
+.margin_right_2 {
+  margin-right: 5px;
+}
+
+.margin_right_3 {
+  margin-right: 5px;
+}
+
+.wadah_rumah:hover {
+  background-color: #d3d9df;
+  border: 1px solid #d3d9df;
+}
+
+.link_icon_rumah:hover {
+  color: #2c4a63;
+  text-decoration: underline;
+} 
+
+.column_rumah2 {
+  text-align: left;
+}
+
+.foto_panduan {
+  width: 80%;
+}
+
+.margin_top3 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.panduan_mhs {
+  text-align: left;
+  font-size: 1.171875rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.wadah_video {
+  width: 43%;
+  margin: 0 auto;
+}
+
+.mrgin_top {
+  margin-top: 30px;
+}
+
+.mrgin_bottom {
+  margin-bottom: 75px;
+}
+
+.wadah_courses_recently {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+}
+
+.wadah_courses_recentlyy {
+  overflow: auto;
+}
+
+.img_style {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.courses_one {
+  color: #373a3c;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.courses_one:hover {
+  color: #2c4a63;
+  text-decoration: underline;
+}
+
+.deskripsi_recently {
+  text-align: left;
+  padding: 0.8rem;
+}
+
+.margin_right {
+  margin-right: 30px;
+}
+
+.roww {
+  flex-wrap: nowrap;
+}
+
+.padding_left {
+  margin-left: 25px;
+}
+
+.padding_right {
+  margin-right: 25px;
+}
+
+.wadah_image_recently {
+  padding-bottom: 20px;
+}
+
+.wadah_course_overview {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  margin-top: 65px;
+}
+
+.wadah_dropdown_all {
+  color: #373a3c;
+  display: inline-block;
+}
+
+.wadah_dropdown_all .nav-link {
+  border: 1px solid #e9ecef;
+  padding: 6px 12px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wadah_dropdown_all .dropdown-toggle::after {
+  vertical-align: middle;
+}
+
+.wadah_dropdown_all .nav-link:hover {
+  border: 1px solid #e9ecef;
+  background-color: #e9ecef;
+  padding: 6px 12px;
+}
+
+.wadah_dropdown_all .nav-link:focus {
+  box-shadow: 0 0 0 0.2rem rgba(233,236,239,.5);
+}
+
+.nama_anda_all {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.NavDropdown_future .dropdown-item.active {
+  background-color: #447198;
+  color: #000;
+}
+
+.text_align_right {
+  text-align: right;
+}
+
+.text_align_left {
+  text-align: left;
+}
+
+.sort_by {
+  font-size: 15px;
+  margin-right: 4px;
+}
+
+.img_courses {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.wadah_deskripsi_courses {
+  padding: 12.8px;
+}
+
+.link_deskripsi_courses {
+  font-size: 15px;
+  color: #373a3c;
+  text-decoration: none;
+}
+
+.link_deskripsi_courses:hover {
+  color: #373a3c;
+  text-decoration: underline;
+}
+
+.wadah_icon_titik_tiga {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wadah_icon_titik_tiga:hover {
+  background-color: #e9ecef;
+}
+
+.icon_titik_tiga {
+  font-size: 16px;
+}
+
+.arrow_in_point {
+  display: inline-block;
+}
+
+.arrow_in_point .dropdown-toggle::after {
+  display: none;
+}
+
+.wadah_progres .progress {
+  height: 0.5rem;
+}
+
+.wadah_progres {
+  text-align: left;
+}
+
+.wadah_progres .progress-bar {
+  background-color: #44719C;
+}
+
+.deskripsi_progres {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.padding_courses {
+  padding: 1rem 0 1rem;
+}
+
+.mrgin_bottom_button {
+  margin-bottom: 1rem;
+}
+
+.wadah_count_show {
+  text-align: left;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.content_show {
+  margin-right: 5px;
+}
+
+.wadah_sidebar {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  padding: 28px 16px 16px 16px;
+  text-align: left;
+}
+
+.header_timeline {
+  font-size: 18.75px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.wadah_clock_and_sort {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+
+.padding_bottom_container {
+  padding-bottom: 50px;
+}
+
+.wadah_content_activities {
+  margin-top: 32px;
+}
+
+.link_content_activities {
+  text-decoration: none;
+  color: #447198;
+  display: inline-block;
+}
+
+.link_content_activities:hover {
+  text-decoration: underline;
+  color: #2c4a63;
+}
+
+.content_activities {
+  font-size: 18.75px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.img_activities {
+  width: 70px;
+  height: 70px;
+}
+
+.wadah_img_activities {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.deskripsi_activities {
+  color: #868e96;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+}
+
+.wadah_all_content_activities {
+  padding-bottom: 32px;
+}
+
+.button_more_courses {
+  padding: 6px 12px;
+  border: 1px solid #E9ECEF;
+  padding: 6px 12px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button_more_courses:hover {
+  background-color: #d3d9df;
+  color: #212529;
+  border: 1px solid #E9ECEF;
+}
+
+.button_more_courses:focus {
+  box-shadow: 0 0 0 0.2rem rgba(233,236,239,.5);
+}
+
+.wadah_all_button_courses {
+  margin-top: 16px;
+}
+
+.wadah_header_private {
+  padding-top: 44px;
+}
+
+.header_private {
+  font-size: 18.75px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.nofile_available {
+  font-size: 15px;
+}
+
+.wadah_all_nofile {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link_manage_private {
+  text-decoration: none;
+  color: #447198;
+  font-size: 15px;
+}
+
+.link_manage_private:hover {
+  text-decoration: underline;
+  color: #2c4a63;
+}
+
+.wadah_all_online {
+  padding-top: 42px;
+  margin-bottom: 16px;
+}
+
+.content_online_users {
+  text-align: left;
+  font-size: 15px;
+}
+
+.personal_img {
+  width: 16px;
+  border-radius: 0.25rem;
+  margin-right: 8px;
+}
+
+.content_nama_personal {
+  font-size: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #447198;
+}
+
+.content_nama_personal:hover {
+  text-decoration: underline;
+  color: #2c4a63;
+}
+
+.link_name_img {
+  text-decoration: none;
+}
+
+.wadah_icon_mata {
+  text-align: right;
+}
+
+.link_icon_eye {
+  text-decoration: none;
+  color: #447198;
+  display: none;
+}
+
+.link_icon_eye:hover {
+  color: #2c4a63;
+}
+
+.wadah_all_nama_online {
+  margin-bottom: 48px;
+}
+
+.txt_badges {
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+.wadah_all_calendar {
+  margin-top: 32px;
+  margin-bottom: 1rem;
+}
+
+.date_calendar {
+  display: none;
+}
+
+.wadah_all_upcoming {
+  margin-top: 48px;
+}
+
+.txt_events {
+  font-size: 15px;
+  margin-top: 1rem;
+  display: block;
+}
+
+.bawah {
+  margin-bottom: 130px;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #e9ecef;
+}
+
+.bckgrnd-validation {
+  padding: .75rem 1.25rem;
+  background-color: #f7dddc;
+}
+
+.content-validation {
+  text-align: left;
+  font-size: 15px;
+  color: #712b29;
+  margin-bottom: 0;
+}
+
+.wadah2-validation {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.wadah-validation {
+  background-color: #fff;
+  padding-top: 35px;
+}
+
+.displaytrue {
+  display: block;
+}
+
+.displayfalse {
+  display: none;
+}
+
+.italicc {
+  font-style: italic;
+}
+
+.underline_link {
+  text-decoration: none;
+}
+
+.wadah_dasboard_white {
+  text-align: left;
+  background-color: #fff;
+  color: #495057;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.wadah_dasboard_white:hover {
+  background-color: #f8f9fa;
+}
+
+.wadah_dasboard_white:active {
+  background-color: #e9ecef;
+}
+
+.cap_gradion {
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .wadah_sidebar {
+    padding: 0;
+  }
+
+  .content_online_users {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .link_icon_eye {
+    display: inline-block;
+  }
+
+  .date_calendar {
+    display: block;
+  }
+
+  .date_picker {
+    display: none;
+  }
+
+  .bawah {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .background_forgot {
+    padding-left: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0px;
+  }
+
+  .background_input {
+    padding-bottom: 0px;
+  }
+
+  .wadah1 {
+    padding-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .language {
+    display: inline-block;
+  }
+
+  .wadah_footer {
+    position: static;
+  }
+
+  .wadah_footer_false {
+    position: static;
+  }
+
+  .wadah_link_umsidaa {
+    display: none;
+  }
+  .wadah_dropdownn {
+    display: none;
+  }
+
+  .wadah_dropdown {
+    display: none;
+  }
+
+  .navbarrr {
+    margin: 0 0 0 10%;
+  }
+
+  .navbar_two {
+    margin: 0 2% 0 0;
+  }
+
+  .padding_right {
+    margin-right: 0px;
+  }
+  
+  .padding_left {
+    margin-left: 0px;
+  }
+
+  .pddingright_md {
+    margin-right: 25px;
+  }
+
+  .pddingleft_md {
+    margin-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .wadah_link_umsida {
+    display: none;
+  }
+
+  .wadah_dropdown {
+    display: none;
+  }
+
+  .navbarr {
+    margin: 0 0 0 10%;
+  }
+
+  .navbar_twoo {
+    margin: 0 3.5% 0 0;
+  }
+
+  .navbarrr {
+    margin: 0 0 0 14.3%;
+  }
+
+  .navbar_two {
+    margin: 0 2.9% 0 0;
+  }
+
+  .wadah_menu {
+    margin-left: 7%;
+  }
+
+  .container_card {
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+  }
+
+  .container_search {
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+  }
+
+  .wadah_categories {
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+  }
+
+  .wadah_NimNam {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .wadah_registrasii {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .wadah_enroll {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .wadah_menu_my {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .foto_panduan {
+    width: 100%;
+  }
+
+  .wadah_video {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .wadah_courses_recently {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .pddingright_md {
+    margin-right: 0px;
+  }
+
+  .pddingleft_md {
+    margin-left: 0px;
+  }
+
+  .wadah_course_overview {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+  .sort_by {
+    display: none;
+  }
+
+  .wadah_sidebar {
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+  }
+
+}
+
+
+@media screen and (max-width: 575px) {
+  .wadah1 {
+    padding-top: 25px;
+  }
+
+  .background_forgot {
+    padding-bottom: 8px;
+  }
+
+  .wadah_always {
+    width: 50%;
+  }
+
+  .wadah_menu {
+    margin-left: 5%;
+  }
+
+  .wadah_carouselss {
+    display: none;
+  }
+
+  .container_card {
+    padding-top: 24px;
+  }
+
+  .input_search {
+    width: 43%;
+  }
+
+  .row_one_folder {
+    text-align: center;
+  }
+
+  .border_top_enroll {
+    text-align: left;
+  }
+
+  .link_qr {
+    display: none;
+  }
+
+  .column_rumah2 {
+    text-align: center;
+  }
+
+  .column_rumah {
+    text-align: center;
+  }
+
+  .margin_right_1 {
+    margin-right: 5px;
+  }
+  
+  .margin_right_2 {
+    margin-right: 0px;
+  }
+  
+  .margin_right_3 {
+    margin-right: 5px;
+  }
+
+  .margin_top2 {
+    margin-top: 5px;
+  }
+
+}
+
+@media screen and (max-width: 521px) {
+  .nama_anda {
+    display: none;
+  }
+}
