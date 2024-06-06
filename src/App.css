@@ -1333,6 +1333,9 @@
   margin-top: -5px;
 }
 
+.mrgin_justify {
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 1200px) {
   .wadah_sidebar {

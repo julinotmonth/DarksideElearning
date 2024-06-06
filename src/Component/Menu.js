@@ -68,13 +68,9 @@ function Menu (props) {
                     <Row>
                         <Col xl={12} lg={12} md={12} sm={12} xs={12}>
                             <div className="mrgin_top mrgin_bottom">
-                                <div className="wadah_video">
-                                <Player
-                                    playsInline
-                                    poster={panduanakses}
-                                    src={Video}
-                                    />
-                                </div>
+                                <Col xl={6} lg={6} md={6} sm={8} xs={12} className="mrgin_justify">
+                                    <img src={panduanakses} style={{width: '100%'}} />
+                                </Col>
                             </div>
                         </Col>
                     </Row>
