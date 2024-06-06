@@ -4,9 +4,12 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import './Component/i18n'
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <HashRouter>
+        <App />
+    </HashRouter>
 );
 

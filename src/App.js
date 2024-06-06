@@ -25,14 +25,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Lobby />} />
                 <Route path='/login' element={<Home setUsername={setUsername} setNim={setNim} setProdi={setProdi} />} />
                 <Route path='/my' element={<MyCourses username={username} nim={nim} prodi={prodi} />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
-      </BrowserRouter>
     </div>
   );
 }
