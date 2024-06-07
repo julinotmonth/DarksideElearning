@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/E-Learning/static/css/main.1c501cfa.css",
+    "main.js": "/E-Learning/static/js/main.0c743c96.js",
+    "static/media/Video.mp4": "/E-Learning/static/media/Video.afd12f230d9954752b36.mp4",
+    "static/media/poster1.jpg": "/E-Learning/static/media/poster1.1b8069e077696ea6f9e8.jpg",
+    "static/media/poster2.jpg": "/E-Learning/static/media/poster2.6b4fc03d0b6500d07623.jpg",
+    "static/media/imgcourses.jpg": "/E-Learning/static/media/imgcourses.d69ad2f1c422a82713e6.jpg",
+    "static/media/panduanakses.jpg": "/E-Learning/static/media/panduanakses.207aff0654b1395f602b.jpg",
+    "static/media/Kemuhamm.jpg": "/E-Learning/static/media/Kemuhamm.c56cd840434facc46614.jpg",
+    "static/media/panduan.jpg": "/E-Learning/static/media/panduan.0189e9ebb2acd4745058.jpg",
+    "static/media/kampusmerdeka.png": "/E-Learning/static/media/kampusmerdeka.f152fcd955aea88cf715.png",
+    "static/media/activities.svg": "/E-Learning/static/media/activities.adb99e87a9528f123e3bf552e73a0457.svg",
+    "index.html": "/E-Learning/index.html",
+    "main.1c501cfa.css.map": "/E-Learning/static/css/main.1c501cfa.css.map",
+    "main.0c743c96.js.map": "/E-Learning/static/js/main.0c743c96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c501cfa.css",
+    "static/js/main.0c743c96.js"
+  ]
+}
